@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Pokemon Memory Match </title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="icon" href="./img/Favicon.svg">
+  </head>
+  <body>
+   <header>
+     <audio src="../audios/intro2.mp3" id="musicIntro" loop="loop">
+       Tu navegador no soporta el elemento <code>audio</code>.
+     </audio>
+     <button id="btnPlayPause" class="btnOnOff"><img id="btnicons" class="iconPlay" src="./img/play.svg"/></button>
+     </header>
+
+   <section class="welcome-user">
+     <figure class="game-logotype">
+      <img class="logotype" src="./img/PokemonMemoryMatch.png"/>
+      <div>
+        <a href="./html/ingresarUser.html"> <button id="button-welcome-user" class="button-welcome" type = "button">  INICIAR </button> </a>
+      </div>
+     </figure>
+        </section>
+
+  <div id="root"></div>
+  <script src="main.js" type="module"></script>
+  </body>
+</html>

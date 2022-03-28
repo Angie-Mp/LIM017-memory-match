@@ -1,0 +1,93 @@
+body {
+  background-image: url("../Img/FondoPantallaInicio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.btnOnOff{
+  display: flex;
+  float: right;
+  height: 80px;
+  width: 80px;
+  margin-top: 38px;
+  border-radius: 100px;
+  box-shadow: 5px 10px 20px #000000;
+  background-image: linear-gradient(160deg, #FFE53B 0%, #FF2525 94%);
+  cursor:pointer;
+  border-color: rgba(213, 155, 9, 2);
+}
+
+.iconPlay{
+  background-image: url("./img/play.svg");
+  width: 60%;
+  align-items: center;
+  margin-top: 22px;
+  margin-left: 12px;
+}
+
+.welcome-user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:-19px;
+}
+
+.game-logotype{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+margin-right: auto;
+margin-left: 115px;
+position: fixed;
+transform: translate(0%, 35%);
+}
+
+.logotype {
+  width: 35%;
+}
+
+.button-welcome{
+  background-color: #F35435;
+  color: white;
+  cursor: pointer;
+  border-radius: 70px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  height: 47px;
+  width: 229px;
+  border-color: rgba(243, 84, 53, 1);
+}
+
+@media (max-width:750px){
+  .game-logotype{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 60px;
+    margin-top: 110px;
+    /*margin-top: 40px;*/
+    position: fixed;
+    }
+}
+ @media (max-width:760px) and (min-width:740px){
+    .game-logotype{
+    /*margin-top:52px;*/
+    flex-direction: column;
+    transform: translate(0%, 23%);
+  }
+}
+
+@media (max-width:740px){
+  .logotype{
+    width: 50%;
+    height: 11rem;
+    width: auto;
+  }
+}
